@@ -1,0 +1,338 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+   
+}
+/*start navbar*/
+.navnav{
+    background-image: url('../images/hero-bg.jpg');
+    margin: 0;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background: rgba(0,0,0,0.7);
+    height: 120px;
+    padding: 3.25rem;
+}
+
+/*.navbar .collapse .navbar-nav{
+    margin-left: 40px;
+}*/
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    background-color: #ff000a;
+    border-radius: 10px;
+}
+.navbar .collapse .navbar-nav  .btn{
+    width: 130px;
+    border: 2px solid #fff;
+    color: #fff; 
+}
+.navbar .collapse .navbar-nav  .btn:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+.navnav .div2{
+    background: rgba(0,0,0,0.7);
+    margin-top: 300px;
+    color: #fff;
+}
+.navnav .div2 ul{
+    padding-top: 30px;
+    display: flex; 
+    justify-content: space-around;
+}
+.navnav .div2 ul li{
+    list-style:none;
+    display: inline-block;
+   
+    font-weight: bold;
+    text-align: center;
+}
+.navnav .div2 ul li:hover{
+    background-color: #ff000a;
+    cursor: pointer;
+    width: auto;
+   flex-grow: 1;
+   max-width: 110px;
+}
+.navnav .div2 .divs{
+    margin-top: 30px;
+}
+.navnav .div2 .divs input{
+    
+    height: 71px;
+    
+    border: none;
+    padding-left: 47px;
+}
+.navnav .div2 .divs button{
+    background-color: #ff000a;
+    color: white;
+    border-radius: 0;
+  
+    height: 71px;
+    margin-left: -5px;
+    border: none;
+    text-transform: uppercase;
+    padding: 21px 44px;
+    line-height: normal;
+}
+.navnav .div2 p{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaa;
+}
+.clearfix{clear:both}
+/*end navbar*/
+/*start about*/
+.about{
+    align-items: center;
+    padding-top: 80px; 
+    padding-bottom: 80px;
+}
+.about h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.about .row{
+    padding-top: 80px;
+}
+.about .about-d{
+    display: flex;
+    flex-direction: column;
+}
+.about .about-d h2{
+    font-weight: bold;
+}
+.about .about-d p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #6a6a6a;
+}
+.about .about-d a{
+    
+    color: #ff000a;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+.about .about-d a:hover{
+    text-decoration: none;
+}
+/*end about*/
+/*start blog*/
+.blog .card{
+    border: none;
+}
+.blog .h1{
+    margin-bottom: 70px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.blog .card img{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.blog .card .card-body .card-link{
+    color: #ff000a;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #ff000a;
+}
+/*end blog*/
+/*start search*/
+.search {
+    background-color: rgb(34, 36, 43);
+    margin-top: 70px;
+}
+.search .jumbotron{
+    background-color: transparent;
+    display: flex;
+}
+.search .h1{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size:  60px;
+    color: white;
+}
+.search .lead{
+    color:white;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.search .loan-form{
+    margin-bottom: 80px;
+}
+.search .loan-form input {
+    height: 61px;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+.search .btn{
+    background-color: #ff000a;
+    color: white;
+    line-height: 50px;
+    border-radius: 0;
+    margin-top: -5px;;
+}
+/*end search*/
+/*start info*/
+.info{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.info .card{
+    border: none;
+}
+.info .card .card-body{
+    padding: 0;
+}
+.info .card .h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.info .card p{
+    margin-top: 30px;
+    line-height: 2;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.info .card a{
+    color: #ff000a;
+    border-bottom: 1px solid #ff000a;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.info .card img{
+    border-radius: 0;
+    height: 456px;
+}
+/*end info*/
+/*start footer*/
+.footer{
+    background-color: rgb(34, 36, 43);
+    display:flex;
+}
+.footer .left{
+    border-right: 1px solid #6a6a6a;
+    margin-top: 70px;
+}
+.footer .left p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height:  2;
+    font-size: 15px;
+    padding-right: 86px;
+}
+.footer .left .btn{
+    background-color: #ff000a;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    vertical-align: middle;
+    padding: 15px 45px;
+}
+
+.footer  .d{
+    margin-top: 150px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+}
+.footer   .d ul{
+    list-style: none;
+    line-height: 2;
+    padding-left: 0;
+    margin-top: 30px;
+    color: #aaa;
+}
+.footer  .d h5{
+    font-size: 18px;
+}
+.footer .copy{
+    margin-top: 50px;
+}
+.footer .copy p{
+    color: rgb(136, 135, 135);
+    font-size: 12px;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.footer .copy p span{
+    color: rgb(114, 14, 245);
+    font-size:16px;
+    text-transform: uppercase;
+}
+/*end footer*/
+
+
+/*************************** About Page *************************/
+
+/************ start second**********************/
+.second{
+    margin-bottom: 100px;;
+} 
+.second .container{
+     background-color: rgb(80, 83, 95);
+     color: white;
+     margin-bottom: 100px;
+     margin-top: 100px;
+ }
+ .second .container .h1{
+     font-weight: bold;
+     margin-bottom: 100px;
+ }
+
+ .second .container .sec .div-ic span{
+     background-color: red;
+     width: 50px;
+     height: 50px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+ .second .container .sec h3{
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ .second .container .sec p{
+     margin-top: 40px;
+     margin-bottom: 100px;
+ }
+ .second .container .div-btn .btn{
+     background-color: #ff000a;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     color: white;
+     font-weight: bold;
+
+ }
+
+ #blog2{
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+/************ end second**********************/
